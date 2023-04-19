@@ -32,6 +32,7 @@ console.log("Inside confirm");
         TeamA: 'Chennai Super Kings',
         TeamB:'Mumbai Indians',
         Location:'Dubai',
+        Date:'15/4/2023',
         Time:'4:00 pm',
 });
 seriesStore.getProxy().data.items.push(newRecord.data);
