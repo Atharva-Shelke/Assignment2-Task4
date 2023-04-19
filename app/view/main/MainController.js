@@ -27,13 +27,13 @@ console.log("Inside confirm");
       var seriesStore = seriesGrid.getStore();
 
       var newRecord = seriesStore.getModel().create({
-        Series_id: '100',
-        Series_name: 'IPL',
-        TeamA: 'Chennai Super Kings',
-        TeamB:'Mumbai Indians',
-        Location:'Dubai',
-        Date:'15/4/2023',
-        Time:'4:00 pm',
+        Series_id: '',
+        Series_name: '',
+        TeamA: '',
+        TeamB:'',
+        Location:'',
+        Date:'',
+        Time:'',
 });
 seriesStore.getProxy().data.items.push(newRecord.data);
 seriesStore.load();
