@@ -22,7 +22,7 @@
         {xtype:'button',text: 'Delete',handler: 'onDeleteClick'}]},
 
     columns: [
-        { text: 'Series_id',  dataIndex: 'Series_id' ,flex: 1},
+        { text: 'Series_id',  dataIndex: 'Series_id' ,flex: 1,editor:{xtype:'textfield',allowBlank:false}},
         { text: 'Series_name', dataIndex: 'Series_name', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
         { text: 'TeamA', dataIndex: 'TeamA', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
         { text: 'TeamB', dataIndex: 'TeamB', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
