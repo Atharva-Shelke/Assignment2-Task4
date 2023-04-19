@@ -27,6 +27,7 @@
         { text: 'TeamA', dataIndex: 'TeamA', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
         { text: 'TeamB', dataIndex: 'TeamB', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
         { text: 'Location', dataIndex: 'Location', flex: 1,editor:{xtype:'textfield',allowBlank:false} },
+        { text: 'Date', dataIndex: 'Date', flex: 1,editor:{xtype:'textfield',allowBlank:false} },
         { text: 'Time', dataIndex: 'Time', flex: 1 ,editor:{xtype:'textfield',allowBlank:false}},
     ],
 
